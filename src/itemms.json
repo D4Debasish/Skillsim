@@ -1,0 +1,38 @@
+[
+    {
+      "id":1,
+      "image": {
+        "url": "https://www.littlethings.info/wp-content/uploads/2014/04/dummy-image-green-e1398449160839.jpg",
+        "alt_text": "Description of the image"
+      },
+      "title": "Innovation Expo 2023",
+      "dates": "Sat, 13 Jan  ",
+      "Location":" Location is TBD",
+      "paragraph":"Unleash your creativity and explore the latest innovations shaping our future.",
+      "price": "₹5,000.00"
+    },
+    {
+        "id":2,
+      "image": {
+        "url": "https://www.littlethings.info/wp-content/uploads/2014/04/dummy-image-green-e1398449160839.jpg",
+        "alt_text": "Description of the image"
+      },
+      "title": "TechXperience Summit",
+      "dates": "Sat, 13 Jan ",
+      "Location":" Location is TBD",
+      "paragraph": "A convergence of technology enthusiasts & experts sharing insights on the latest tech trends",
+      "price": "₹5,000.00"
+    },
+    {
+        "id":3,
+      "image": {
+        "url": "https://www.littlethings.info/wp-content/uploads/2014/04/dummy-image-green-e1398449160839.jpg",
+        "alt_text": "Description of the image"
+      },
+        "title": "CareerCraft Fai",
+        "dates": "Sat, 13 Jan  ",
+        "Location":" Location is TBD",
+        "paragraph":"  Navigate your career path with industry professionals & career development workshops  ",
+        "price": "₹5,000.00"
+      }
+  ]

@@ -1,0 +1,166 @@
+
+.footer {
+    background-color: #1a0b58;
+    padding: 30px;
+  }
+  
+  .footer-row {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footdesc{
+    color: aliceblue;
+    text-align: justify;
+  }
+  
+  .footer-col {
+    flex: 1;
+    padding: 0 15px;
+  }
+  
+  /* Left section styles */
+  .left-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .left-section .logo {
+    max-width: 100px; 
+    
+  }
+  .icon-links{
+    margin-right: 250px;
+    /* margin-top: 12px; */
+  }
+  .logo{
+    margin-right: 270px;
+    width: auto;
+    height: auto;
+  }
+  
+  .imgs{
+    width: 20px;
+  height: 20px;
+  }
+  
+  /* Middle section styles */
+  .middle-section {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .page-links,
+  .more-links {
+    flex: 1;
+    margin: 0 10px; 
+    padding: 0 10px; 
+  }
+  .page-links > *:hover
+  {
+ color: rgb(16, 194, 222); 
+ text-decoration: none; 
+}
+.more-links > *:hover
+  {
+ color: rgb(16, 194, 222); 
+ text-decoration: none; 
+}
+  
+  .page-links a,
+  .more-links a {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .page{
+    color: aliceblue;
+    font-weight: bold;
+  }
+  .more{
+    color: aliceblue;
+    font-weight: bold;
+  }
+  .page-links a{
+    color: aliceblue;
+  }
+  .more-links a{
+    color: aliceblue;
+  }
+  
+  
+  
+  /*------------------- Right section styles------------------------- */
+  .right-section {
+    text-align: center;
+  }
+  .right-section .subs{
+    color: aliceblue;
+  }
+  .rightdesc{
+    color: aliceblue;
+    text-align: justify;
+  }
+  
+  .subscribe-form {
+    margin-top: 15px; 
+    display: flex;
+  }
+  /* .inp{
+    width: 600px;
+  }
+   */
+
+   .section-two-paragraphs{
+    display: flex;
+    justify-content: space-between;
+   }
+   .lambaline {
+    color: aliceblue;
+   }
+
+   .firstpara{
+    color: aliceblue;
+   }
+  
+
+  
+@media (max-width: 1024px) {
+  .icon-links {
+    margin-right: 50px; 
+  }
+
+  .logo {
+    margin-right: 50px; 
+  }
+
+  
+}
+
+
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column; 
+  }
+
+  .footer-col {
+    flex: 1;
+    padding: 0;
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+
+  .right-section {
+    text-align: left; 
+  }
+
+ 
+}
+

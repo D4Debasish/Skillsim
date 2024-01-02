@@ -1,0 +1,33 @@
+.child_video {
+    width: 1200px; 
+    height: 600px; 
+    border-radius:35px;
+    overflow: hidden;                                
+    display: flex;
+    justify-content: center;      
+    align-items: center;    
+    margin: auto;   }    
+  
+  .child_img video {
+    width: 1138px;                    
+    height: 100%;                    
+    object-fit: cover;                                
+  }
+ 
+@media (max-width: 1200px) {
+  .child_video {
+    width: 100%;
+    height: auto; 
+    border-radius: 0; 
+    margin: 0; 
+  }
+
+  .child_img video {
+    width: 100%;
+    height: auto; 
+  }
+
+ 
+}
+
+

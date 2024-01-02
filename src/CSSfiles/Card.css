@@ -1,0 +1,80 @@
+.card__main{
+    width: 320px;
+    height: 290px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 90px;
+    justify-content: space-evenly;
+    transition: transform 0.2s ease;
+    border-color: rgb(9, 114, 180);
+    background-color: ghostwhite;
+}
+.card__main_diffcrd{
+    width: 320px;
+    height: 290px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 90px;
+    justify-content: space-evenly;
+    transition: transform 0.2s ease;
+    border-color: rgb(157, 159, 160);
+    color: white;
+    background-color: rgb(20, 20, 114);
+}
+.card__main_diffcrd:hover{
+    transform: scale(1.05); 
+}
+
+.card__main:hover {
+    transform: scale(1.05); 
+  }
+.card__main Meta title{
+    color: rgb(36, 36, 190);
+}
+.card_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px; 
+}
+
+
+.card_img{
+    padding-bottom: 20px;
+    margin-right: 10px;
+ max-width: 100%;
+ height: auto;
+}
+.card_pra{
+    color: rgb(126, 120, 120);
+}
+.card_pradiff{
+    color: white;
+}
+.metaTitlediff{
+    color: white;
+}
+.metaTitle{
+    color: #173367; 
+}
+
+@media (max-width: 768px) {
+    .card__main,
+    .card__main_diffcrd {
+      width: 100%;
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card_content {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .card_img {
+      margin-right: 0;
+    }
+  }
+  
+

@@ -1,0 +1,42 @@
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;                      
+  gap: 20px;             
+  flex-wrap: wrap;                                             
+}
+.itemname{
+  color: #173367;
+}
+.prrra{
+  color:rgb(0, 213, 255);
+}
+.desc{
+  text-align: center;
+}
+.card {
+  width: calc(30% - 20px);                                              
+  max-width: 300px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+.price-button-container{
+  display: flex;
+  justify-content: space-between;
+}
+.pricetag{
+  color: black;
+}
+@media (max-width: 768px) {
+  .card {
+    width: calc(100% - 20px);
+    max-width: 100%; 
+  }
+
+  
+}
+  
+  
